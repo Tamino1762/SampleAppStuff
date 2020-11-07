@@ -1,0 +1,14 @@
+C:\Users\Theresa\source\repos\SampleThings\SampleThings\bin\Debug\netstandard2.0\SampleThings.deps.json
+C:\Users\Theresa\source\repos\SampleThings\SampleThings\bin\Debug\netstandard2.0\SampleThings.dll
+C:\Users\Theresa\source\repos\SampleThings\SampleThings\bin\Debug\netstandard2.0\ref\SampleThings.dll
+C:\Users\Theresa\source\repos\SampleThings\SampleThings\bin\Debug\netstandard2.0\SampleThings.pdb
+C:\Users\Theresa\source\repos\SampleThings\SampleThings\obj\Debug\netstandard2.0\SampleThings.csprojAssemblyReference.cache
+C:\Users\Theresa\source\repos\SampleThings\SampleThings\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Theresa\source\repos\SampleThings\SampleThings\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Theresa\source\repos\SampleThings\SampleThings\obj\Debug\netstandard2.0\SampleThings.AssemblyInfoInputs.cache
+C:\Users\Theresa\source\repos\SampleThings\SampleThings\obj\Debug\netstandard2.0\SampleThings.AssemblyInfo.cs
+C:\Users\Theresa\source\repos\SampleThings\SampleThings\obj\Debug\netstandard2.0\SampleThings.csproj.CoreCompileInputs.cache
+C:\Users\Theresa\source\repos\SampleThings\SampleThings\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Theresa\source\repos\SampleThings\SampleThings\obj\Debug\netstandard2.0\SampleThings.dll
+C:\Users\Theresa\source\repos\SampleThings\SampleThings\obj\Debug\netstandard2.0\ref\SampleThings.dll
+C:\Users\Theresa\source\repos\SampleThings\SampleThings\obj\Debug\netstandard2.0\SampleThings.pdb

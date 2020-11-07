@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampleThings.MainPage">
+
+    <StackLayout>
+        <Entry Placeholder="Entry Box (Password)" VerticalOptions="Center" IsPassword="True" PlaceholderColor="DarkSeaGreen"/>
+        <Editor Placeholder="Editor Box To Type Stuff In" VerticalOptions="Center" BackgroundColor="PaleGoldenrod" AutoSize="TextChanges"/>
+        <Button Text="I'M A BUTTON!" Clicked="Button_Clicked" 
+                BorderWidth="5"
+                CornerRadius="5"
+                HeightRequest="75" 
+                BackgroundColor="LawnGreen" 
+                BorderColor="Fuchsia" 
+                />
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Label Text="Here is a slider that rotates words for reasons" TextColor="Red"   x:Name="label" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+            <Slider x:Name="rotationSlider"
+                BindingContext="{x:Reference label}"
+                Grid.Row="2" Grid.Column="0"
+                Maximum="360"
+                Value="{Binding Rotation, Mode=OneWayToSource}" />
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
